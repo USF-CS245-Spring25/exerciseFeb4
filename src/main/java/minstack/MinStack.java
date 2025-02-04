@@ -27,7 +27,7 @@ class MinStack {
     }
 
     /**
-     * Pop an element
+     * Pop an element on top of the "min stack"
      * Will you pop from both stacks?
      */
     public void pop() {
