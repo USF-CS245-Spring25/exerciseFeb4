@@ -35,7 +35,7 @@ class MinStack {
     }
 
     /**
-     * Return the top of stack 1
+     * Return the top of stack 1 without removing it
      * @return element at the top of stack 1
      */
     public int top() {
@@ -45,12 +45,12 @@ class MinStack {
     }
 
     /**
-     * Returns the smallest element
-     * (it is stored in stack 2 - how?)
+     * Returns the smallest element without removing it
+     * (it is stored in stack 2)
      * @return
      */
     public int getMin() {
-        // FILL IN CODE
+        // FILL IN CODE:
 
         return 0;
     }

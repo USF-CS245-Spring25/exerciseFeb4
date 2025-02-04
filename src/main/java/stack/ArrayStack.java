@@ -76,5 +76,13 @@ public class ArrayStack implements Stack {
         data = newdata;
         size = size * 2;
     }
+
+    public Object peek() {
+        if (empty()) {
+            System.out.println("Empty stack");
+            return null;
+        }
+        return data[top - 1];
+    }
 }
 
